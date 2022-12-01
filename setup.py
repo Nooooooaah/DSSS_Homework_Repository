@@ -15,7 +15,7 @@ setup(
     author='Noah Schäfer',
     author_email='noah.schaefer@fau.de',
     license='Apache License 2.0',
-    packages=[''],
+    packages=['snowflake'],
     install_requires=['turtle',
                       'numpy', 'random','seaborn'                    
                       ],
