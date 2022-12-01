@@ -1,5 +1,13 @@
 import turtle
 import numpy as np
+import seaborn as sns
+import random
+
+
+
+
+
+#%%
 
 
 def main(speed=0, bg_color="grey"):
@@ -14,12 +22,17 @@ def main(speed=0, bg_color="grey"):
   
  
     """TODO: define different colors here"""
+    c_palette = sns.color_palette("viridis",24)
 
 
     for _ in range(10):
         # define some params
         size = 18
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
+        
+        myTurtle.pencolor(c_palette[random.randrange(0,25,1)])
+        
+        
 
         """TODO: set snowflake color here (one of the colors defined above)"""
 
