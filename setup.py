@@ -17,7 +17,7 @@ setup(
     license='Apache License 2.0',
     packages=['snowflake'],
     install_requires=['turtle',
-                      'numpy', 'random','seaborn'                    
+                      'numpy',                     
                       ],
 
     classifiers=[
