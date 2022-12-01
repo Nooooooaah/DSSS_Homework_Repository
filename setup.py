@@ -17,5 +17,5 @@ setup(
     author_email='noah.schaefer@fau.de',
     license='Apache License 2.0',
     packages=find_packages(),
-    install_requires=['numpy', 'turtels'    ],   
+    install_requires=['numpy', 'turtles'  ],   
 )
