@@ -10,7 +10,9 @@ DSSS_Homework_Repository
 
 An Snowflake creating code.
 """
+from .let_it_snow import *
 
 __version__ = "0.1.0"
 __author__ = 'Noah Schäfer'
 __credits__ = 'Friedrich Alexander University Erlangen-Nürnberg'
+
